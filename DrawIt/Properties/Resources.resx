@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Restart" xml:space="preserve">
+    <value>Restart?</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="grab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grab.cur;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CurrentVersion" xml:space="preserve">
+    <value>Current version</value>
+  </data>
+  <data name="grabbing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grabbing.cur;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IconKromme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IconKromme.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CursorNone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CursorNone.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iconEllips" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconEllips.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>Save changes?</value>
+  </data>
+  <data name="IconCirkel2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IconCirkel2.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="favicon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\favicon.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconPunt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IconPunt1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SearchFailed" xml:space="preserve">
+    <value>Failed to check for updates</value>
+  </data>
+  <data name="CapFlat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CapFlat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DrawArc" xml:space="preserve">
+    <value>Draw arc</value>
+  </data>
+  <data name="favicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\favicon(11).ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DrawCircle3" xml:space="preserve">
+    <value>Draw circle through 3 points</value>
+  </data>
+  <data name="DrawLine" xml:space="preserve">
+    <value>Draw line</value>
+  </data>
+  <data name="FilterSaveTekening" xml:space="preserve">
+    <value>Drawing|*.tek</value>
+  </data>
+  <data name="DrawDimension" xml:space="preserve">
+    <value>Draw dimension</value>
+  </data>
+  <data name="CurParallel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CurParallel.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iconCirkelSegment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconCirkelSegment.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="OpenFileIcon" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAlhJREFUOE+9kVtIE1Ach/fQQ08WaVEIRZaEPQwDQ6qHkKSbopRmhZEmlLcuGIpt
+        U9u8Tndz6kqHuU3X1Gm1MgwrhEKRCC11lJiaBUWlmBkqefsam2iSQQ/RH34v55zvOz/OEfyXySkxI9Na
+        uJJvIk9nRaI0Mr/1dxOdrCMsXuWELogqyHTIUrINRCWXIKg3a1gujbXyP96SICklPFFFaHyhS9DbZWRy
+        tM6ZHyMWpocMWE0qbObsZSVhCWpC47QExxYjqKtUMzFSvQSe/VTKtD2J6op8qspyMZRkoi/M4LpSTLE8
+        dam0xqhg4otxAZ5zwPSKwR67bH4T3CyX8/2jfgFuqlc488BaQINFzp2qXKyGLCx6GSbdVW5o0yhTi9Ep
+        RC5ZlT6XsXdFztoDLVJs1WpmB2QwmL00bx1r/RLoSYZXiXTWRnApJgSBQZfFt758eK/kbo2KtodK16Ff
+        q7+MgvZwZlqDmHwUwJtKIedPH3AJyrVSvr6WMdiajs2iZK5fCt1xLrAzxgGeYKYthMnm/Yw17mG4fgey
+        eG9OBnq43qJUnc5wl4hbZgUdTx1NepIcgrPQcYq5Z0eYenKI8aa9jNj8+FzjQ3vOaiKDvPDb5uYS6ArE
+        dDdncNtcAH0Z8MJR9/kxplqCGX8cwGiDP0NWIR+MW7Er3ZHGbsF3u+fiTxTlpVJnysd+L4F2jWAhbcoV
+        NMtXcj9zFbVpazGkenLt8iYiD2/G33fjokCTnYJGeo48UTSSi8edD3MmIpCjB3exb7eQnUJvfLw82bjB
+        g3Vr3FjvPl/934xA8BMxLu5f2Qy04AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="UpdateCancelled" xml:space="preserve">
+    <value>The update process has been cancelled</value>
+  </data>
+  <data name="AppUpToDate" xml:space="preserve">
+    <value>The application is up-to-date</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="SaveChangesX" xml:space="preserve">
+    <value>The file {0} has changed. Do you want to save it?</value>
+  </data>
+  <data name="coordinaat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coordinaat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DrawCircleSegment" xml:space="preserve">
+    <value>Draw circle segment</value>
+  </data>
+  <data name="ErrorOccured" xml:space="preserve">
+    <value>An error occured</value>
+  </data>
+  <data name="IconGeslotenKromme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IconGeslotenKromme.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DrawParallel" xml:space="preserve">
+    <value>Draw parallel</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Line</value>
+  </data>
+  <data name="IconVeelhoek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IconVeelhoek.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NewVersion" xml:space="preserve">
+    <value>New version</value>
+  </data>
+  <data name="DrawNewShape" xml:space="preserve">
+    <value>Drawn new {0}</value>
+  </data>
+  <data name="tekst" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tekst.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MovePoints_fm" xml:space="preserve">
+    <value>Move {0} points</value>
+  </data>
+  <data name="updating" xml:space="preserve">
+    <value>Updating</value>
+  </data>
+  <data name="favicon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\favicon1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateCompleteRestart" xml:space="preserve">
+    <value>Update complete. Do you want to restart the application?</value>
+  </data>
+  <data name="CapTriangle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CapTriangle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateAvailable" xml:space="preserve">
+    <value>Update available</value>
+  </data>
+  <data name="ReportExceptionString" xml:space="preserve">
+    <value>An unhandled exception of type "{0}" was thrown in the application. "{1}" Please inform us about the exception, this way we can solve the problem.</value>
+  </data>
+  <data name="Checking" xml:space="preserve">
+    <value>Checking for updates</value>
+  </data>
+  <data name="IconRechte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IconRechte.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconCirkelBoog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IconCirkelBoog.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DrawCircleSector" xml:space="preserve">
+    <value>Draw circle sector</value>
+  </data>
+  <data name="FileNoLongerExists" xml:space="preserve">
+    <value>The file {0} no longer exists. Do you want to remove it from the recent list?</value>
+  </data>
+  <data name="iconMaatlijn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconMaatlijn.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="load" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\load.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DrawPoint" xml:space="preserve">
+    <value>Draw point</value>
+  </data>
+  <data name="DrawCircle2" xml:space="preserve">
+    <value>Draw circle with midpoint</value>
+  </data>
+  <data name="PlacedNewText" xml:space="preserve">
+    <value>Place text</value>
+  </data>
+  <data name="tekst1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tekst1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NoRecent" xml:space="preserve">
+    <value>No recent files</value>
+  </data>
+  <data name="IconCirkel3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IconCirkel3.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextFile" xml:space="preserve">
+    <value>Text File</value>
+  </data>
+  <data name="FilterOpenTekening" xml:space="preserve">
+    <value>All suported file types|*.tek;*.ico;*.icon|Drawings|*.tek|Icons|*.ico;*.icon</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>File not found</value>
+  </data>
+  <data name="iconLayers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconLayers.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DrawEllips" xml:space="preserve">
+    <value>Draw new ellipse</value>
+  </data>
+  <data name="IcoonCirkelSector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoonCirkelSector.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DrawTangentArc" xml:space="preserve">
+    <value>Draw tangent arc</value>
+  </data>
+  <data name="CapRound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CapRound.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>C:\Users\Pieterjan\Documents\Visual Studio 2015\Projects\DrawIt\DrawIt\publish\DrawIt\|C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DrawIt\DrawIt\publish\DrawIt\|C:\Users\Gebruiker\Documents\Visual Studio 2015\Projects\DrawIt\DrawIt\publish\|ftp://pieterjan.pro/Projecten/csharp/DrawIt/Update/|publish\</PublishUrlHistory>
+    <InstallUrlHistory>http://localhost/DrawIt/</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory>http://pieterjan.pro/Projecten/csharp/DrawIt/Update/|http://pieterjan.pro/Projecten/csharp/DrawIt/Deploy/|http://pieterjan.pro/Projecten/csharp/DrawIt/|http://pieterjandeclippel.be/Projecten/csharp/DrawIt/|http://pieterjandeclippel.be/DrawIt/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <EnableSQLServerDebugging>false</EnableSQLServerDebugging>
+    <StartArguments>C:\Users\Pieterjan\Documents\DrawIt\Tekening6.tek</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>
